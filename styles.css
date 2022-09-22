@@ -1,0 +1,74 @@
+
+@font-face {
+  src: url("Assets/Fonts/BankGothic Bold.ttf");
+  font-family: SpaceX;
+}
+
+/*
+TAGS
+*/
+
+body {
+  background-image: url("Assets/Images/mars.gif");
+  background-size: cover;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*
+Class
+*/
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  padding-left: 30px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-shadow: 2px 5px 10px rgb(186, 164, 128);
+}
+
+.learn-more {
+  padding-top: 50px;
+}
+
+.invite {
+  text-align: center;
+}
+
+.question {
+  font-size: 70px;
+  font-family: 'Space Grotesk', sans-serif;
+  text-shadow: 0px 0px 10px black;
+}
+
+.apply-btn {
+  margin: 100px auto;
+  padding: 20px;
+  display: block;
+  width: 30%;
+  font-size: 40px;
+  font-family: inherit;
+  letter-spacing: 5px;
+  border-radius: 20px;
+  border: 3px solid rgb(35, 57, 70);
+}
+
+.apply-btn:hover {
+  background-color: rgb(186, 164, 128);
+}
+
+.apply-btn:active {
+  filter: brightness(80%);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.message {
+  text-align: center;
+}
